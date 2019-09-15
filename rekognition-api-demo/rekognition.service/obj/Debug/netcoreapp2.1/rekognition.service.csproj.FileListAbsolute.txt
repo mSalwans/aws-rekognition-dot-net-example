@@ -1,0 +1,32 @@
+C:\Users\msalwans\source\repos\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\rekognition.service.deps.json
+C:\Users\msalwans\source\repos\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\rekognition.service.dll
+C:\Users\msalwans\source\repos\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\rekognition.service.pdb
+C:\Users\msalwans\source\repos\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\msalwans\source\repos\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\msalwans\source\repos\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.csprojAssemblyReference.cache
+C:\Users\msalwans\source\repos\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.csproj.CoreCompileInputs.cache
+C:\Users\msalwans\source\repos\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.AssemblyInfoInputs.cache
+C:\Users\msalwans\source\repos\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.AssemblyInfo.cs
+C:\Users\msalwans\source\repos\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.csproj.CopyComplete
+C:\Users\msalwans\source\repos\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.dll
+C:\Users\msalwans\source\repos\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.pdb
+C:\ML\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\rekognition.service.deps.json
+C:\ML\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\rekognition.service.dll
+C:\ML\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\rekognition.service.pdb
+C:\ML\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\ML\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\ML\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.csprojAssemblyReference.cache
+C:\ML\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.csproj.CoreCompileInputs.cache
+C:\ML\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.AssemblyInfoInputs.cache
+C:\ML\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.AssemblyInfo.cs
+C:\ML\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.csproj.CopyComplete
+C:\ML\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.dll
+C:\ML\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.pdb
+C:\Users\msalwans\OneDrive - SPR Consulting\Desktop\ML\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.csproj.CoreCompileInputs.cache
+C:\Users\msalwans\OneDrive - SPR Consulting\Desktop\ML\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.AssemblyInfoInputs.cache
+C:\Users\msalwans\OneDrive - SPR Consulting\Desktop\ML\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.AssemblyInfo.cs
+C:\Users\msalwans\OneDrive - SPR Consulting\Desktop\ML\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.dll
+C:\Users\msalwans\OneDrive - SPR Consulting\Desktop\ML\rekognition-api-demo\rekognition.service\obj\Debug\netcoreapp2.1\rekognition.service.pdb
+C:\Users\msalwans\OneDrive - SPR Consulting\Desktop\ML\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\rekognition.service.deps.json
+C:\Users\msalwans\OneDrive - SPR Consulting\Desktop\ML\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\rekognition.service.dll
+C:\Users\msalwans\OneDrive - SPR Consulting\Desktop\ML\rekognition-api-demo\rekognition.service\bin\Debug\netcoreapp2.1\rekognition.service.pdb

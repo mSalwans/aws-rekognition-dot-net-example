@@ -1,0 +1,22 @@
+<h3 >Detect Labels</h3>
+
+
+<app-upload (selectedImages)="uploadedImage($event)" [uploadTo]="uploadTo" (onUploadFinished)="getLabels($event)"></app-upload>
+<div class="row">
+  
+  <!-- <img [src]="imgUploaded" height="200" *ngIf="imgUploaded"> -->
+  <br />
+  <br />
+  <mat-chip-list>
+    <mat-chip *ngFor="let label of labels"> {{displayLabel(label)}}
+        <mat-icon matChipRemove >cancel</mat-icon>
+    </mat-chip>
+  </mat-chip-list>
+  
+</div>
+
+
+<hr />
+
+
+<pre>{{labels | json}}</pre>

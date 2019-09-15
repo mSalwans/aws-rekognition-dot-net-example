@@ -1,0 +1,32 @@
+<h3 >Compare Faces</h3>
+
+<span>Source image:</span>
+<input #source type="file">
+<br />
+<span>Target image</span>
+<input #target type="file">
+<br /><br />
+<button (click)="compareImgs(source.files, target.files)" >
+  Compare
+</button>
+
+<br />
+<mat-spinner *ngIf="spinner"></mat-spinner>
+<br />
+
+<br />
+<img [src]="srcImg" height="200" *ngIf="srcImg">
+&nbsp;&nbsp;&nbsp;
+<img [src]="trgtImg" height="200" *ngIf="trgtImg">
+<br />
+<img [src]="markedImg" *ngIf="markedImg" class="max-width">
+
+<br />
+<p>Number of matched faces: {{faceMatches?.length}}</p>
+<p>Number of unmatched faces: {{unmatchedFaces?.length}}</p>
+<br />
+
+<hr />
+
+
+<pre>{{response | json}}</pre>

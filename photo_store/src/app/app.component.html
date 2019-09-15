@@ -1,0 +1,40 @@
+<mat-sidenav-container>
+  <mat-sidenav  #sidenav role="navigation" mode="side" opened>
+   <mat-nav-list color="primary">
+     <div class="title">AWS Rekognition</div>
+    <!-- <a mat-list-item
+        routerLink="/">
+      <mat-icon class="icon">home</mat-icon>
+        <span class="label">Home</span>
+    </a> -->
+    <a mat-list-item
+      routerLink="/detectLabels">
+      <mat-icon class="icon">art_track</mat-icon>
+      <span class="label">Detect Labels</span>
+    </a>
+    <a mat-list-item
+      routerLink="/compareFaces">
+      <mat-icon class="icon">contacts</mat-icon>
+      <span class="label">Compare Faces</span>
+    </a>
+    <a mat-list-item
+      routerLink="/imageToText">
+      <mat-icon class="icon">format_shapes</mat-icon>
+      <span class="label">Image To Text</span>
+    </a>
+    <a mat-list-item
+      routerLink="/recognizeCelebrities">
+      <mat-icon class="icon">how_to_reg</mat-icon>
+      <span class="label">Recognize Celebrities</span>
+    </a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+        
+    </mat-toolbar>
+    <main class="main-container">
+      <router-outlet></router-outlet>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,21 @@
+<h3>Recognize Celebrities</h3>
+
+
+<app-upload (selectedImages)="uploadedImage($event)" [uploadTo]="uploadTo" (onUploadFinished)="getLabels($event)" (markedImg)="getMarkedImg($event)" ></app-upload>
+<div class="row">
+  
+  <br />
+  <br />
+  <mat-chip-list>
+    <mat-chip *ngFor="let face of faces"> {{face.name}} </mat-chip>
+  </mat-chip-list>
+  
+</div>
+<br />
+<img [src]="markedImg" *ngIf="markedImg" width="100%">
+<br />
+
+<hr />
+
+
+<pre>{{response | json}}</pre>

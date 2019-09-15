@@ -1,0 +1,21 @@
+<mat-spinner *ngIf="spinner"></mat-spinner>
+
+<div class="row" style="margin-bottom:15px;">
+  <div class="col-md-3">
+    <input #file type="file" multiple (change)="uploadFile(file.files)" style="display:none;">
+    <button type="button" class="btn btn-success" (click)="file.click()">Upload File</button>
+  </div>
+  <div class="col-md-4">
+    <span class="upload" *ngIf="progress > 0">
+      
+    </span>
+    <span class="upload" *ngIf="message">
+      
+    </span>
+  </div>
+  <br />
+  <img [src]="img" height="200" style="padding: 5px;"
+    *ngFor="let img of imgsUploaded" >
+
+</div>
+

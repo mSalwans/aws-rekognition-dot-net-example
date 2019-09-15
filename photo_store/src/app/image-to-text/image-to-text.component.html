@@ -1,0 +1,21 @@
+<h3>Image To Text</h3>
+
+
+<app-upload (selectedImages)="uploadedImage($event)" [uploadTo]="uploadTo" (onUploadFinished)="getLabels($event)"></app-upload>
+<div class="row">
+  
+  <br />
+  <br />
+  <mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let txt of response.textDetections">
+      {{displayText(txt)}} 
+    </mat-list-item>
+  </mat-list>
+  
+</div>
+
+
+<hr />
+
+
+<pre>{{response | json}}</pre>

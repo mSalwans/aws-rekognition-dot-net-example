@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\msalwans\\OneDrive - SPR Consulting\\Desktop\\ML\\rekognition-api-demo\\rekognition.service\\rekognition.service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\msalwans\\OneDrive - SPR Consulting\\Desktop\\ML\\rekognition-api-demo\\rekognition.service\\rekognition.service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\msalwans\\OneDrive - SPR Consulting\\Desktop\\ML\\rekognition-api-demo\\rekognition.service\\rekognition.service.csproj",
+        "projectName": "rekognition.service",
+        "projectPath": "C:\\Users\\msalwans\\OneDrive - SPR Consulting\\Desktop\\ML\\rekognition-api-demo\\rekognition.service\\rekognition.service.csproj",
+        "packagesPath": "C:\\Users\\msalwans\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msalwans\\OneDrive - SPR Consulting\\Desktop\\ML\\rekognition-api-demo\\rekognition.service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\msalwans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AWSSDK.Rekognition": {
+              "target": "Package",
+              "version": "[3.3.100.56, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
