@@ -9,6 +9,7 @@ using rekognition.service;
 using rekognition_api_demo.Helpers;
 using Microsoft.Extensions.Configuration;
 using rekognition.service.Interfaces;
+using System.Drawing;
 
 namespace rekognition_api_demo.Controllers
 {
@@ -26,6 +27,8 @@ namespace rekognition_api_demo.Controllers
         [HttpPost, DisableRequestSizeLimit]
         public async Task<IActionResult> UploadAsync(IFormFile[] imgs)
         {
+            IPainter painter = new rekognition.service.Implementation.RectangleMarker();
+
             try
             {
                 var file = Request.Form.Files[0];
@@ -36,7 +39,28 @@ namespace rekognition_api_demo.Controllers
 
                     response = await _detectLabels.DetectAsync(stream);
 
-                    return Ok(new { response });
+                    string markedImg = "";
+
+                    if (response.Labels.Count > 0)
+                    {
+                        System.Drawing.Image output = System.Drawing.Image.FromStream(stream);
+
+                        foreach (Label box in response.Labels)
+                        {
+                            foreach (Instance instance in box.Instances)
+                            {
+                                var boundingBox = instance.BoundingBox;
+                                output = painter.DrawOnImage(output, file.FileName,
+                                    boundingBox.Height, boundingBox.Width,
+                                    boundingBox.Top, boundingBox.Left, GetRandomColor());
+                            }
+                        }
+
+                        markedImg = ImageHelper.ConvertImageToBase64(output);
+                    }
+
+
+                    return Ok(new { response, markedImg });
                 }
                 else
                 {
@@ -49,6 +73,11 @@ namespace rekognition_api_demo.Controllers
             }
         }
 
+        private Color GetRandomColor()
+        {
+            Random r = new Random();
+            return Color.FromArgb(r.Next(0, 256), r.Next(0, 256), 0);
+        }
 
 
     }
