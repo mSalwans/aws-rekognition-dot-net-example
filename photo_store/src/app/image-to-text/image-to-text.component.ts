@@ -8,7 +8,7 @@ import { ILabel } from 'src/models/label';
 })
 export class ImageToTextComponent implements OnInit {
 
-  response: string;
+  response: any;
   imgUploaded: any;
   uploadTo = 'ImageToText';
 
@@ -22,7 +22,7 @@ export class ImageToTextComponent implements OnInit {
   // }
 
   getLabels(response: any) {
-    this.response = response;
+    this.response = response.textDetections;
     console.log(this.response);
   }
 

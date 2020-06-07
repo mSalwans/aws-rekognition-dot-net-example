@@ -10,6 +10,7 @@ export class DetectLabelsComponent implements OnInit {
 
   labels: ILabel[];
   imgUploaded: any;
+  markedImg: string;
   uploadTo = 'DetectLabels';
 
   constructor() { }
@@ -23,6 +24,10 @@ export class DetectLabelsComponent implements OnInit {
 
   displayLabel(label: ILabel) {
     return label.name + ' - ' + Math.trunc(label.confidence) + '%';
+  }
+
+  getMarkedImg(markedImg: any) {
+    this.markedImg = markedImg;
   }
 
 }

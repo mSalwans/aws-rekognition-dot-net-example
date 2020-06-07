@@ -1,10 +1,9 @@
 <h3 >Detect Labels</h3>
 
 
-<app-upload (selectedImages)="uploadedImage($event)" [uploadTo]="uploadTo" (onUploadFinished)="getLabels($event)"></app-upload>
+<app-upload (selectedImages)="uploadedImage($event)" [uploadTo]="uploadTo" (onUploadFinished)="getLabels($event)" (markedImg)="getMarkedImg($event)"></app-upload>
 <div class="row">
   
-  <!-- <img [src]="imgUploaded" height="200" *ngIf="imgUploaded"> -->
   <br />
   <br />
   <mat-chip-list>
@@ -14,7 +13,9 @@
   </mat-chip-list>
   
 </div>
-
+<br />
+<img [src]="markedImg" *ngIf="markedImg">
+<br />
 
 <hr />
 
