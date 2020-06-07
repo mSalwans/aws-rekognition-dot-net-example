@@ -1,0 +1,5 @@
+.vs
+rekognition-api-demo\bin
+rekognition-api-demo\obj
+rekognition.service\bin
+rekognition.service\obj
